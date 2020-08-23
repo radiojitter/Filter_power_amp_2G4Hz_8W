@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name SMA-)(type Legacy)(uri ${KIPRJMOD}/library/SMA-/SMA-.lib)(options "")(descr ""))
+  (lib (name rj-2-4ghz-filter-amp-rescue)(type Legacy)(uri ${KIPRJMOD}/rj-2-4ghz-filter-amp-rescue.lib)(options "")(descr ""))
+  (lib (name SPF5189Z)(type Legacy)(uri ${KIPRJMOD}/library/SPF5189Z/SPF5189Z.lib)(options "")(descr ""))
+  (lib (name RFSA3613)(type Legacy)(uri ${KIPRJMOD}/library/RFSA3613/RFSA3613.lib)(options "")(descr ""))
+  (lib (name RPi-Hat-RF-Transmitter-V1-rescue)(type Legacy)(uri "C:/Users/lenovo/Documents/Work/RadioJItter RPi Transmitter Shield/RPi Hat RF Transmitter V1/RPi Hat RF Transmitter V1/RPi Hat RF Transmitter V1-rescue.lib")(options "")(descr ""))
+  (lib (name B39242B4360P810)(type Legacy)(uri ${KIPRJMOD}/library/B39242B4360P810/B39242B4360P810.lib)(options "")(descr ""))
+  (lib (name AZ1084CD-5.0TRG1)(type Legacy)(uri ${KIPRJMOD}/library/AZ1084CD-5_0TRG1/AZ1084CD-5.0TRG1.lib)(options "")(descr ""))
+  (lib (name MP1584EN-LF-Z)(type Legacy)(uri ${KIPRJMOD}/library/MP1584/MP1584EN-LF-Z.lib)(options "")(descr ""))
+)

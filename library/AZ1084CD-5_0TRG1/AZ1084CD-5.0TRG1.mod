@@ -1,0 +1,43 @@
+PCBNEW-LibModule-V1  2020-07-22 19:03:39
+# encoding utf-8
+Units mm
+$INDEX
+TO-252_1
+$EndINDEX
+$MODULE TO-252_1
+Po 0 0 0 15 5f187f7b 00000000 ~~
+Li TO-252_1
+Cd TO252_1
+Kw Integrated Circuit
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.464 -2.247 1.27 1.27 0 0.254 N V 21 N "IC**"
+T1 -0.464 -2.247 1.27 1.27 0 0.254 N I 21 N "TO-252_1"
+DS -3.35 -6.2 3.35 -6.2 0.2 24
+DS 3.35 -6.2 3.35 0 0.2 24
+DS 3.35 0 -3.35 0 0.2 24
+DS -3.35 0 -3.35 -6.2 0.2 24
+DS -3.35 0 3.35 0 0.2 21
+DC -3.856 3.977 -4.01163 3.977 0.254 21
+$PAD
+Po -2.3 2.493
+Sh "1" R 1.5 2.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.3 2.493
+Sh "2" R 1.5 2.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 -4.407
+Sh "3" R 7 7 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE TO-252_1
+$EndLIBRARY

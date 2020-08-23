@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name SMA-)(type KiCad)(uri ${KIPRJMOD}/library/SMA-)(options "")(descr ""))
+  (lib (name SPF5189Z)(type KiCad)(uri ${KIPRJMOD}/library/SPF5189Z)(options "")(descr ""))
+  (lib (name RFSA3613)(type KiCad)(uri ${KIPRJMOD}/library/RFSA3613/RFSA3613.pretty)(options "")(descr ""))
+  (lib (name B39242B4360P810)(type KiCad)(uri ${KIPRJMOD}/library/B39242B4360P810/B39242B4360P810.pretty)(options "")(descr ""))
+  (lib (name SKY66292-11)(type KiCad)(uri ${KIPRJMOD}/library/SKY66292-11/SKY66292-11.pretty)(options "")(descr ""))
+  (lib (name AZ1084CD-5_0TRG1)(type KiCad)(uri ${KIPRJMOD}/library/AZ1084CD-5_0TRG1)(options "")(descr ""))
+  (lib (name MP1584)(type KiCad)(uri ${KIPRJMOD}/library/MP1584)(options "")(descr ""))
+)
