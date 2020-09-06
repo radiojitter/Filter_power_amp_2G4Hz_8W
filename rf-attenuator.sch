@@ -112,7 +112,7 @@ U 1 1 5F13ECA8
 P 1625 1425
 F 0 "J3" H 1543 1100 50  0000 C CNN
 F 1 "Conn_01x03" H 1543 1191 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1625 1425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 1625 1425 50  0001 C CNN
 F 3 "~" H 1625 1425 50  0001 C CNN
 	1    1625 1425
 	-1   0    0    1   
@@ -123,7 +123,7 @@ U 1 1 5F140087
 P 2550 1425
 F 0 "J4" H 2468 1100 50  0000 C CNN
 F 1 "Conn_01x03" H 2468 1191 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2550 1425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 2550 1425 50  0001 C CNN
 F 3 "~" H 2550 1425 50  0001 C CNN
 	1    2550 1425
 	-1   0    0    1   
@@ -134,7 +134,7 @@ U 1 1 5F1413AE
 P 3425 1425
 F 0 "J5" H 3343 1100 50  0000 C CNN
 F 1 "Conn_01x03" H 3343 1191 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3425 1425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 3425 1425 50  0001 C CNN
 F 3 "~" H 3425 1425 50  0001 C CNN
 	1    3425 1425
 	-1   0    0    1   
@@ -145,7 +145,7 @@ U 1 1 5F1413B4
 P 4250 1425
 F 0 "J6" H 4168 1100 50  0000 C CNN
 F 1 "Conn_01x03" H 4168 1191 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4250 1425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 4250 1425 50  0001 C CNN
 F 3 "~" H 4250 1425 50  0001 C CNN
 	1    4250 1425
 	-1   0    0    1   
@@ -209,7 +209,7 @@ U 1 1 5F14E7E8
 P 5300 1475
 F 0 "J7" H 5218 1150 50  0000 C CNN
 F 1 "Conn_01x02" H 5218 1241 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 1475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 5300 1475 50  0001 C CNN
 F 3 "~" H 5300 1475 50  0001 C CNN
 	1    5300 1475
 	-1   0    0    1   

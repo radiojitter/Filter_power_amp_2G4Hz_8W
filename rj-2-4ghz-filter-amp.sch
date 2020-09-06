@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L vk_custom_kicad:SMA- X1
+L rj-2-4ghz-filter-amp-rescue:SMA--vk_custom_kicad X1
 U 1 1 5F10910A
 P 675 4500
 F 0 "X1" H 805 4390 50  0000 L CNN
@@ -28,7 +28,7 @@ F 6 "142-0701-871" H 825 4350 50  0001 L BNN "Field6"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vk_custom_kicad:SMA- X2
+L rj-2-4ghz-filter-amp-rescue:SMA--vk_custom_kicad X2
 U 1 1 5F10ABCF
 P 10825 4500
 F 0 "X2" H 10955 4390 50  0000 L CNN
@@ -83,7 +83,7 @@ U 1 1 5F114991
 P 3825 1600
 F 0 "J2" H 3882 1925 50  0000 C CNN
 F 1 "Barrel_Jack" H 3882 1834 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3875 1560 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" H 3875 1560 50  0001 C CNN
 F 3 "~" H 3875 1560 50  0001 C CNN
 	1    3825 1600
 	1    0    0    -1  
@@ -272,4 +272,92 @@ Connection ~ 4500 2500
 Wire Wire Line
 	4125 1500 4500 1500
 Connection ~ 4500 1500
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F423E29
+P 7950 1650
+F 0 "H1" H 8050 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8050 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7950 1650 50  0001 C CNN
+F 3 "~" H 7950 1650 50  0001 C CNN
+	1    7950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F424833
+P 9100 1650
+F 0 "H3" H 9200 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9200 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9100 1650 50  0001 C CNN
+F 3 "~" H 9100 1650 50  0001 C CNN
+	1    9100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F424B16
+P 7950 2250
+F 0 "H2" H 8050 2299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8050 2208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7950 2250 50  0001 C CNN
+F 3 "~" H 7950 2250 50  0001 C CNN
+	1    7950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F424DE3
+P 9150 2250
+F 0 "H4" H 9250 2299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9250 2208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9150 2250 50  0001 C CNN
+F 3 "~" H 9150 2250 50  0001 C CNN
+	1    9150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F425E6E
+P 7950 1750
+F 0 "#PWR0104" H 7950 1500 50  0001 C CNN
+F 1 "GND" H 7955 1577 50  0000 C CNN
+F 2 "" H 7950 1750 50  0001 C CNN
+F 3 "" H 7950 1750 50  0001 C CNN
+	1    7950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F42603C
+P 9100 1750
+F 0 "#PWR0105" H 9100 1500 50  0001 C CNN
+F 1 "GND" H 9105 1577 50  0000 C CNN
+F 2 "" H 9100 1750 50  0001 C CNN
+F 3 "" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F426227
+P 9150 2350
+F 0 "#PWR0106" H 9150 2100 50  0001 C CNN
+F 1 "GND" H 9155 2177 50  0000 C CNN
+F 2 "" H 9150 2350 50  0001 C CNN
+F 3 "" H 9150 2350 50  0001 C CNN
+	1    9150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F42640D
+P 7950 2350
+F 0 "#PWR0111" H 7950 2100 50  0001 C CNN
+F 1 "GND" H 7955 2177 50  0000 C CNN
+F 2 "" H 7950 2350 50  0001 C CNN
+F 3 "" H 7950 2350 50  0001 C CNN
+	1    7950 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

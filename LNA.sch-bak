@@ -106,9 +106,11 @@ Connection ~ 5975 2800
 Wire Wire Line
 	5525 3350 5975 3350
 $Comp
-L vk_custom_kicad:SBB5089Z U2
+L rj-2-4ghz-filter-amp-rescue:SBB5089Z-vk_custom_kicad U2
 U 1 1 5D702FA1
 P 5525 3950
+AR Path="/5D702FA1" Ref="U2"  Part="1" 
+AR Path="/5F10D83B/5D702FA1" Ref="U2"  Part="1" 
 F 0 "U2" H 6219 3996 50  0000 L CNN
 F 1 "SPF5189Z" H 6219 3905 50  0000 L CNN
 F 2 "SPF5189Z:SPF5189Z" H 5775 4250 50  0001 C CNN

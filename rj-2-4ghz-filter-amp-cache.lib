@@ -211,6 +211,22 @@ X EP 9 600 -1200 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # RFSA3613_RFSA3613
 #
 DEF RFSA3613_RFSA3613 U 0 40 Y Y 1 F N
@@ -275,6 +291,22 @@ X A 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
+# rj-2-4ghz-filter-amp-rescue_SBB5089Z-vk_custom_kicad
+#
+DEF rj-2-4ghz-filter-amp-rescue_SBB5089Z-vk_custom_kicad U 0 40 Y Y 1 F N
+F0 "U" 250 300 50 H V C CNN
+F1 "rj-2-4ghz-filter-amp-rescue_SBB5089Z-vk_custom_kicad" 400 -350 50 H V C CNN
+F2 "" 250 300 50 H I C CNN
+F3 "" 250 300 50 H I C CNN
+DRAW
+P 4 0 1 12 550 0 -250 500 -250 -500 550 0 f
+X RF_IN 1 -350 0 100 R 50 50 1 1 I
+X GND 2 0 -450 100 U 50 50 1 1 W
+X RF_OUT/BIAS 3 650 0 100 L 50 50 1 1 O
+X GND 4 0 450 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # rj-2-4ghz-filter-amp-rescue_SKY66295-baum_rfParts-2-4GHzPA-rescue
 #
 DEF rj-2-4ghz-filter-amp-rescue_SKY66295-baum_rfParts-2-4GHzPA-rescue U 0 40 Y Y 1 F N
@@ -314,27 +346,11 @@ X RFout 9 450 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# vk_custom_kicad_SBB5089Z
+# rj-2-4ghz-filter-amp-rescue_SMA--vk_custom_kicad
 #
-DEF vk_custom_kicad_SBB5089Z U 0 40 Y Y 1 F N
-F0 "U" 250 300 50 H V C CNN
-F1 "vk_custom_kicad_SBB5089Z" 400 -350 50 H V C CNN
-F2 "" 250 300 50 H I C CNN
-F3 "" 250 300 50 H I C CNN
-DRAW
-P 4 0 1 12 550 0 -250 500 -250 -500 550 0 f
-X RF_IN 1 -350 0 100 R 50 50 1 1 I
-X GND 2 0 -450 100 U 50 50 1 1 W
-X RF_OUT/BIAS 3 650 0 100 L 50 50 1 1 O
-X GND 4 0 450 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# vk_custom_kicad_SMA-
-#
-DEF vk_custom_kicad_SMA- X 0 40 N N 1 F N
+DEF rj-2-4ghz-filter-amp-rescue_SMA--vk_custom_kicad X 0 40 N N 1 F N
 F0 "X" 100 -320 50 H V L BNN
-F1 "vk_custom_kicad_SMA-" 100 -400 50 H V L BNN
+F1 "rj-2-4ghz-filter-amp-rescue_SMA--vk_custom_kicad" 100 -400 50 H V L BNN
 F2 "" 0 -200 50 V I C CNN
 F3 "" 150 -150 50 H I L BNN
 F4 "91B6105" 400 -250 50 H I L BNN

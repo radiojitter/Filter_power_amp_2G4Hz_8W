@@ -415,7 +415,7 @@ U 1 1 5C634FA1
 P 2300 1675
 F 0 "J8" H 2220 1350 50  0000 C CNN
 F 1 "Conn_01x02" H 2220 1441 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2300 1675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2300 1675 50  0001 C CNN
 F 3 "~" H 2300 1675 50  0001 C CNN
 	1    2300 1675
 	-1   0    0    1   
@@ -820,7 +820,7 @@ U 1 1 5F1FB9A2
 P 2350 4600
 F 0 "J9" H 2270 4275 50  0000 C CNN
 F 1 "Conn_01x02" H 2270 4366 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2350 4600 50  0001 C CNN
 F 3 "~" H 2350 4600 50  0001 C CNN
 	1    2350 4600
 	-1   0    0    1   
@@ -832,8 +832,8 @@ L Device:R R8
 U 1 1 5F22F6C6
 P 9000 4050
 F 0 "R8" H 9070 4096 50  0000 L CNN
-F 1 "50" H 9070 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8930 4050 50  0001 C CNN
+F 1 "100" H 9070 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 8930 4050 50  0001 C CNN
 F 3 "~" H 9000 4050 50  0001 C CNN
 	1    9000 4050
 	1    0    0    -1  
@@ -843,7 +843,7 @@ L Device:R R7
 U 1 1 5F233145
 P 1300 3975
 F 0 "R7" H 1370 4021 50  0000 L CNN
-F 1 "50" H 1370 3930 50  0000 L CNN
+F 1 "100" H 1370 3930 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 3975 50  0001 C CNN
 F 3 "~" H 1300 3975 50  0001 C CNN
 	1    1300 3975
@@ -889,4 +889,56 @@ Text HLabel 7600 1125 2    50   Input ~ 0
 5V_PA1
 Text HLabel 7650 4050 2    50   Input ~ 0
 5V_PA2
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F42D8EC
+P 4500 7400
+AR Path="/5F42D8EC" Ref="H?"  Part="1" 
+AR Path="/5F10D9AA/5F42D8EC" Ref="H7"  Part="1" 
+F 0 "H7" H 4600 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4600 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4500 7400 50  0001 C CNN
+F 3 "~" H 4500 7400 50  0001 C CNN
+	1    4500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F42D8F2
+P 5650 7400
+AR Path="/5F42D8F2" Ref="H?"  Part="1" 
+AR Path="/5F10D9AA/5F42D8F2" Ref="H8"  Part="1" 
+F 0 "H8" H 5750 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5750 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5650 7400 50  0001 C CNN
+F 3 "~" H 5650 7400 50  0001 C CNN
+	1    5650 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F42D904
+P 4500 7500
+AR Path="/5F42D904" Ref="#PWR?"  Part="1" 
+AR Path="/5F10D9AA/5F42D904" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4500 7250 50  0001 C CNN
+F 1 "GND" H 4505 7327 50  0000 C CNN
+F 2 "" H 4500 7500 50  0001 C CNN
+F 3 "" H 4500 7500 50  0001 C CNN
+	1    4500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F42D90A
+P 5650 7500
+AR Path="/5F42D90A" Ref="#PWR?"  Part="1" 
+AR Path="/5F10D9AA/5F42D90A" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5650 7250 50  0001 C CNN
+F 1 "GND" H 5655 7327 50  0000 C CNN
+F 2 "" H 5650 7500 50  0001 C CNN
+F 3 "" H 5650 7500 50  0001 C CNN
+	1    5650 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
